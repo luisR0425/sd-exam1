@@ -1,0 +1,13 @@
+upstream backend {
+<% @web_servers.each_with_index do |web_server, index| %>
+    server <%= web_server[:ip]%>;
+<% end %>
+}
+
+server {
+   listen 80;
+
+   location / {
+      proxy_pass http://backend;
+   }
+}
