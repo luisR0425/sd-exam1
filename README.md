@@ -125,7 +125,7 @@ end
 
 4) Los cookbooks necesarios están en el repositorio y son los siguientes:<br />
 
-![](https://i.imgur.com/VK1Vgok.png)
+![](https://i.imgur.com/9n9wmvk.png)
 
 Prueba de funcionalidad.
 
