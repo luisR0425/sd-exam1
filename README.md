@@ -5,7 +5,7 @@
 **Nombre:** Luis Fernando Rosales Cadena <br />
 **Código:** A00315320 <br />
 
-**URL repositorio:**  <br />
+**URL repositorio:** https://github.com/luisR0425/sd-exam1  <br />
 
 2) Los comandos necesarios para dar el aprovisionamiento de los servicios que se quieren instalar son los siguientes:<br />
 
