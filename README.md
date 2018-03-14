@@ -167,7 +167,7 @@ Para manejar la Ip que se manda a cada máquina se utilizo el lenguaje ruby en e
 ```
 
 ### Diagrama de despliegue UML
-![](https://lh6.googleusercontent.com/zrQ7Skl2YUb4vq9Pxhuntsn_ODcjpB-7eLPP6dl2PaZ2GT_wL8GHe8j1S0xrmLXZlh0m9ErvXFssfUFFiaP_=w1209-h671)
+![](https://i.imgur.com/uIKMUzi.png)
 
 ### Referencias
 - https://www.upcloud.com/support/how-to-set-up-load-balancing/
