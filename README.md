@@ -7,7 +7,7 @@
 
 **URL repositorio:**  <br />
 
-2) Los comandos necesarios para dar el aprovisionamiento de los servicios que se quieren instalar son los siguiente:<br />
+2) Los comandos necesarios para dar el aprovisionamiento de los servicios que se quieren instalar son los siguientes:<br />
 
 Para el balanceador de cargas:<br />
 
@@ -54,7 +54,7 @@ server {
 }
 ```
 
-Por ultimo le cambiamos el nombre de la configuración que tenía el servicio por defecto para que pueda seleccionar el que hicimos.<br />
+Por último le cambiamos el nombre de la configuración que tenía el servicio por defecto para que pueda seleccionar el que hicimos.<br />
 
 ```
 sudo mv /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf.disabled
@@ -142,7 +142,7 @@ chef.json = {
        }
 ```
 
-Para manejar la Ip que se manda a cada máquina se utilizo el lenguaje ruby en el template load-balancer.erb para asignarla automaticamente.
+Para manejar la Ip que se manda a cada máquina se utilizo el lenguaje ruby en el template load-balancer.erb para asignarla automáticamente.
  
 ```ruby
  chef.json = {
@@ -165,6 +165,9 @@ Para manejar la Ip que se manda a cada máquina se utilizo el lenguaje ruby en e
 <% end %>
 }
 ```
+
+### Diagrama de despliegue UML.
+![](https://lh6.googleusercontent.com/zrQ7Skl2YUb4vq9Pxhuntsn_ODcjpB-7eLPP6dl2PaZ2GT_wL8GHe8j1S0xrmLXZlh0m9ErvXFssfUFFiaP_=w1209-h671)
 
 ### Referencias
 - https://www.upcloud.com/support/how-to-set-up-load-balancing/
